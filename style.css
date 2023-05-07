@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+
+
+}
+.navbar-brand:hover{
+    color: red;
+}
+.nav-link{
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Peralta', cursive;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: white;
+
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    font-family: 'Lobster', cursive;
+    outline: none;
+    /* margin-right: -35px; */
+    border: 2px solid rgb(80, 12, 226);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    font-family: 'Lobster', cursive;
+    border-radius: 60px;
+    background: rgb(10, 47, 125);
+    color: white;
+    border: none;
+}
+.main{
+    /* background: url(https://source.unsplash.com/1Shk_PkNkNw) no-repeat; */
+    background-image: url("./img/Fpo.jpeg" );
+
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+    background-position: 50% 50%;
+   
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        /* background: url(https://source.unsplash.com/1Shk_PkNkNw) no-repeat; */
+        background-image: url("./img/Fpo.jpeg" );
+    
+        background-size: cover;
+        height: 40vh;
+        width: 100%;
+        background-position: 50% 50%;
+       
+    }
+    .nav-link{
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        color: black;
+        font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Peralta', cursive;
+        text-transform: uppercase;
+    }
+    .nav-link:hover{
+        color: white;
+    
+    }
+    .laptopcssmob{
+        display: grid;
+   justify-content: center;
+   text-align: center;
+
+    }
+    .card{
+        /* justify-content: center; */
+        width: 100%;
+    }
+  }
+  @media only screen  and (min-width : 1224px){
+    .laptopmedia{
+    
+        
+        justify-content: center;
+    }
+    .laptopcss{
+        display: grid;
+   justify-content: center;
+   text-align: center;
+
+    }
+    .card{
+        /* justify-content: center; */
+        width: 100%;
+    }
+  }
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(102, 152, 190);
+    font-weight: 700;
+    border-radius: 60px;
+    margin-bottom: 100px;
+}
+.btn1:hover{
+    background-color: rgb(55, 103, 207);
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    -webkit-box-shadow: -2px -2px 9px 5px rgba(0,0,0,0.56);
+    -moz-box-shadow: -2px -2px 9px 5px rgba(0,0,0,0.56);
+    box-shadow: -2px -2px 9px 5px rgba(0,0,0,0.56);
+    transition: 0.5s;
+}
+.apple{
+    background: url(https://source.unsplash.com/idhx-MOCDSk) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+}
+.apple h1{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news  input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem; 
+    cursor: pointer;
+    padding-right:5px ;
+
+}
+.inlineb { display : inline-block}
